@@ -14,16 +14,17 @@ Search with Year as the second Parameter (This way you can get 30 titles for eac
 ### Input
 input: dataframe
 col: target col name
-
+```
 df = text_preprocessing.preprocess(input, col)
+```
 
 ### Output
 original columns, target column with only reular expression, without stop words, lemmatized target column
 
 
 ## Example
-
+```
 df = text_preprocessing.preprocess(df, "tagline")
 df.head()
-
+```
 ![image](https://user-images.githubusercontent.com/62607343/165346026-31121c44-aee1-4be9-8284-afe1e65325fb.png)
