@@ -39,7 +39,7 @@ def remove_stop_words(string):
   else:    
     return new_str
 
-def text_preprocessing(input, col):
+def preprocess(input, col):
   clean_df(input, col)
   word_pattern = re.compile('\w+')
   new_title=str(col+"_Regex")
